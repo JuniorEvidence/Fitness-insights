@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Database
+*.sqlite
+db.sqlite3
+
+# Compiled files
+dist/
+build/
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+.DS_Store
