@@ -1,28 +1,11 @@
-# Node.js dependencies
-node_modules/
-npm-debug.log
-
-# Python virtual environment
+# Ignore Python virtual environment
 venv/
 __pycache__/
-*.pyc
-
-# Environment variables
 .env
 
-# Logs
-logs/
-*.log
+# Ignore node_modules
+frontend/node_modules/
 
-# Database
-*.sqlite
-db.sqlite3
-
-# Compiled files
-dist/
-build/
-
-# IDE/Editor-specific
-.vscode/
-.idea/
+# Ignore system files
 .DS_Store
+Thumbs.db
