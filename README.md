@@ -56,7 +56,7 @@ pip install -r requirements.txt
 #### Setup Environment Variables:
 Create a `.env` file in `backend/` and add:
 ```env
-MONGO_URI=mongodb://localhost:27017/fitness_insights
+MONGO_URI=mongodb://localhost:27017/Your_Database_name
 SECRET_KEY=your_secret_key
 JWT_SECRET_KEY=your_jwt_secret_key
 LLM_API_KEY=your_openai_api_key
